@@ -79,11 +79,11 @@
         android:id="@+id/submit_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="submit"
-        android:textColor="@color/black"
-        android:background="@color/white"
+        android:layout_below="@+id/choices"
         android:layout_marginTop="30dp"
-        android:layout_below="@+id/choices"/>
+        android:background="@color/white"
+        android:text="Next Question"
+        android:textColor="@color/black" />
 </RelativeLayout>
 
 
