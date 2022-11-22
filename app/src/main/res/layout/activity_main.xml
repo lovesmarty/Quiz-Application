@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/total_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Question"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/question_btn"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="question Question"
+        android:layout_below="@+id/total_question"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/question_btn"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="btn_a"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            />
+        <Button
+            android:id="@+id/btn_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="btn_b"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            />
+        <Button
+            android:id="@+id/btn_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="btn_c"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            />
+        <Button
+            android:id="@+id/btn_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="btn_d"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/choices"/>
+</RelativeLayout>
+
+
+
+
+
